@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class calculator {
+
+	public static void main(String[] args) {
+   int x;
+   int y;
+   String operation;
+   Scanner input=new Scanner(System.in);
+   System.out.println("enter first number:-");
+   x=input.nextInt();
+   System.out.println("enter second number:-");
+   y=input.nextInt();
+   Scanner op=new Scanner(System.in);
+   System.out.println("enter your operation:");
+   operation=op.next();
+   if(operation=="+");{
+   System.out.println("your answer is for addtion for same input:"+(x+y));
+   }
+   if(operation=="-");{
+   System.out.println("your answer is for subtraction for same input:"+(x-y));
+   }
+   if(operation=="/");{
+	   System.out.println("your answer is for division for same input:"+(x/y));
+   }
+   if(operation=="*");{
+	   System.out.println("your answer is for multiplication for same input:"+(x*y));
+	   
+   }
+	}
+}
+
+	   
+	   
+   
+
+	
+
+
